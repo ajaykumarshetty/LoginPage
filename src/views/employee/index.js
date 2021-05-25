@@ -31,6 +31,7 @@ const EmployeeList = (props) => {
         localStorage.clear()
         props.history.push("/")
     }
+    const date = new Date();
 
     return (
 
